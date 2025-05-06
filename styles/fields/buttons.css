@@ -5,6 +5,7 @@ button {
     padding: .75rem 1.5rem;
     border-radius: .5rem;
     cursor: pointer;
+    
 
     &.btn-primary {
         color: white;
@@ -22,4 +23,8 @@ button {
             outline: .25rem solid var(--surface-secondary);
     }
 }
+}
+
+.action-wrapper {
+    margin-bottom: 2rem;
 }

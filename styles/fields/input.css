@@ -9,17 +9,24 @@ input, select, textarea {
     font: var(--text);
 }
 
+.textarea-wrapper {
+    label {
+        margin-top: 2rem;
+    }
+}
+
+
 label {
     font: var(--text-sm);
     color: var(--text-secondary);
 
     display: block;
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
 }
 
 input:focus,
 select:focus,
-textarea:focus
+textarea:focus,
 input[type="date"]:focus-within{
     outline: .25rem solid var(--surface-secondary);
     border-color: var(--stroke-highlight);

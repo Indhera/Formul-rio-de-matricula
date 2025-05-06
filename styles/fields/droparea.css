@@ -2,6 +2,7 @@
     border: 2px dashed transparent;
     outline: 1px dashed var(--stroke-default);
     border-radius: .25rem;
+    
 
     display: grid;
     justify-items: center;
@@ -34,9 +35,12 @@
         & svg path {
             stroke: var(--stroke-highlight);
         }
-    }   
-        
-        
+    }  
 
+}
 
+.droparea-wrapper{
+    label {
+        margin-top: 2rem;
+    }
 }
